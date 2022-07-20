@@ -1,0 +1,6 @@
+[workspace]
+members = ["ctru-rs", "ctru-sys"]
+
+[patch.'https://github.com/SeleDreams/ctru-rs']
+# Make sure all dependencies use the local ctru-sys package
+ctru-sys = { path = "ctru-sys" }
