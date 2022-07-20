@@ -2,7 +2,6 @@
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 
-#![feature(const_fn)] 
 #![feature(rustc_private)]
 
 #![no_std]
